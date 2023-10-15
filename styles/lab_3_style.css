@@ -1,0 +1,27 @@
+.links{
+    display: flex;
+    flex-direction: column;
+}
+.links a{
+    border:7px solid green;
+    width: 300px 200px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 19px;
+}
+.block{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.block_square{
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+}
+.block_square > .block_square {
+	width: 50%;
+    height: 50%;
+	margin: 25% 25%;
+}
