@@ -1,0 +1,16 @@
+ /* Стили для сторонних ссылок */
+ body{
+     font-size: 18px;
+ }
+ a.external {
+    text-decoration: overline; /* Верхнее подчеркивание */
+    color: green; /* Зеленый цвет */
+  }
+
+  /* Стили для ссылки на Google */
+  a.google {
+    color: red; /* Красный цвет */
+  }
+  li{
+      padding:5px;
+  }
